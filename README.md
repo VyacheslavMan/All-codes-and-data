@@ -14,6 +14,9 @@
 Базовые модели
 6) XGBoost - XGBoost.py \
 Бустинги
+7) finam import script.ipynb \
+Скрипт для парсинга данных с финам
+8) 
 
 
 Данные:
