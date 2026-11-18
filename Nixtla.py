@@ -167,10 +167,8 @@ def create_date_series(start, periods, freq='D', date_format=None):
 def full_progon_nixtla(data, len_wind, step_smooth, horizont, model, finetune_loss, finetune_steps, act_name, need_save):
 
 
-    # апи ключ для гугл 1 акка (сл ман 1)
-    # nixtla_client = NixtlaClient(api_key = 'nixak-672aa63e8fe487c2edc6253881dbb428cbbb0f3a1e2329b3e25775520eb39e701537eee7a0244edf')
-    # апи ключ для гугл 2 акка (сл ман без 1)
-    nixtla_client = NixtlaClient(api_key = 'nixak-397785221b325211d6fdf0a7e51230b70275138f36cc3965946af78ac497d7cd7e8bb4e9b1c283cd')
+    # апи ключ никстла
+    nixtla_client = NixtlaClient(api_key = 'здесь ваш код для никстла. Лучше регать гмейл акк, там лимитов на 10к прогонов')
     
     if len(data)<len_wind+step_smooth+horizont:
         return 'bro, day bolshe dannih, ryad korotkiy'
